@@ -73,7 +73,6 @@ footer{
 .bio p{
     text-align: justify;
 }
-
 @media (max-width: 900px){
     .time_line, .family, .bio{
         margin-left: 30px;
