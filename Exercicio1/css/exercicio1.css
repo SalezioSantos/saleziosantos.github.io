@@ -74,3 +74,9 @@ footer{
     text-align: justify;
 }
 
+@media (max-width: 900px){
+    .time_line, .family, .bio{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
