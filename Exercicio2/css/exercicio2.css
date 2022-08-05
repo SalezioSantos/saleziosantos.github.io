@@ -1,1 +1,144 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    color: #fff;
+    text-align: center;
+    background-color: #153e5f;
+    height: 60px;
+}
+.head h1{
+    padding: 10px;
+    margin-top: 0;
+}
+.title_form{
+    border-radius: 10px 10px 0 0;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #153e5f;
+    height: 60px;
+    width: 800px;
+}
+.title_form h3{
+    color: #fff;
+    padding: 20px;
+}
+.body_form{
+    border-radius: 0 0 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    background-color: #ddd;
+    height: 500px;
+    width: 800px; 
+}
+form{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+#nome{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12px;
+    width: 745px;
+}
+#sexo_f, #sexo_m, #sexo_x{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+#est_civil, #renda{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12px;
+    width: 360px;
+}
+#cpf, #dt_nasc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12px;
+    width: 150px;
+}
+#rua{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12px;
+    width: 345px;
+}
+#numero, #complemento{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12px;
+    width: 165px;
+}
+#estado, #cidade{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12px;
+    width: 360px;
+}
+#cadastrar{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+.container{
+    display: flex;
+    display: inline-block;
+}
+.cpf, .dt_nasc{
+    display: inline-block;
+    width: 180px;
+    height: 70px;
+}
+.genero{
+    display: inline-block;
+    width: 400px;
+    height: 70px;
+}
+.est_civil, .renda{
+    display: inline-block;
+    width: 380px;
+    height: 70px;
+}
+.endereco{
+    text-align: center;
+    background-color: #153e5f;
+    font-size: 17px;
+    padding-top: 5px;
+    color: #fff;
+    margin-left: 80px;
+    width: 600px;
+    height: 25px;
+}
+.rua{
+    display: inline-block;
+    margin-top: 10px;
+    width: 380px;
+    height: 70px;
+}
+.numero, .complemento{
+    display: inline-block;
+    width: 190px;
+    height: 70px;
+}
+.estado, .cidade{
+    display: inline-block;
+    width: 380px;
+    height: 70px;
+}
+#cadastrar{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #153e5f;
+}
